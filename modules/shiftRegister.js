@@ -16,7 +16,7 @@ class ShiftRegister {
         let bit = 0;
         let array = [];
 
-        for (let x = 7; x >= 0; x--) {
+        for (let x = 15; x >= 0; x--) {
             bit = (byte >> x) & 1;
 
             this._data.writeSync(bit);
