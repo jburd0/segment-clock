@@ -62,8 +62,8 @@ class Digit {
             this._sr.latch();
             sleep.usleep(1200);
         }
-        console.log(this._on);
-        console.log(this._off);
+        // console.log(this._on);
+        // console.log(this._off);
     }
 
     set(char) {
